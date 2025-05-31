@@ -13,3 +13,6 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ['available', 'created', 'updated', 'category']
     list_editable = ['price', 'available']
     prepopulated_fields = {'slug': ('name',)}
+
+
+# проверка
